@@ -12,7 +12,7 @@ class database{
         $this->host = 'localhost';
         $this->username = "root";
         $this->password = "";
-        $this->database = 'excellent';
+        $this->database = 'resturant';
 
         try {
             $dsn = "mysql:host=$this->host;dbname=$this->database";

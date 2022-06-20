@@ -37,7 +37,7 @@
     <!-- Reservering section-->
     <section class="bg-light" id="services">
         <div class="container px-2">
-            <div class="row gx-6 justify-content-start">
+            <div class="wrap gx-6 justify-content-start">
                 <div class="col-lg-8">
                      <label>Via het knopje Reserveringen vandaag kunt u een bestelling opnemen.</label>
                                    
@@ -63,7 +63,7 @@
                 <div class="col-lg-4">
                         <a class="btn btn-primary"
                             href="nieuw-drank.php">Dranken </a> <br> <br>
-                </div>
+                
                 <div class="col-lg-4">
                         <a class="btn btn-primary"
                             href="nieuw-hoofdgroep.php">Menu hoofdgroepen </a> <br> <br>
@@ -72,24 +72,27 @@
                 <div class="col-lg-4">
                         <a class="btn btn-primary"
                             href="nieuw-subgroep.php">Menu subgroepen </a> <br> <br>
-                </div>
+                </div style="margin-top: 10px;">
                 <div class="col-lg-4">
                         <a class="btn btn-primary"
                             href="nieuw-menu-item.php">Menu item toevoegen </a> <br> <br>
+                  <div>          
                 </div>
                 <div class="col-lg-4">
-                        <a class="btn btn-secondary"
-                            href="bestellingen-barman.php">Bestellingen Barman </a> <br> <br>
+                        <a class="btn btn-danger"
+                            href="bestellingen-barman.php">Bestellingen Barman </a> 
                 </div>
+
                 <div class="col-lg-2">
-                        <a class="btn btn-secondary"
-                            href="bestellingen-kok.php">Bestellingen kok</a> <br> <br>
+                        <a class="btn btn-danger"
+                            href="bestellingen-kok.php">Bestellingen kok</a> 
                 </div>
-                <div class="col-lg-2">
-                        <a class="btn btn-secondary"
-                            href="bestellingen-ober.php">Bestellingen ober</a> <br> <br>
+                <div class="col-sm-4">
+                        <a class="btn btn-danger"
+                            href="bestellingen-ober.php">Bestellingen ober</a> 
                 </div>
-                
+
+             
             </div>
         </div>
     </section>
@@ -102,6 +105,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+     <link href="css/styles.css" rel="stylesheet" />
 </body>
 
 </html>

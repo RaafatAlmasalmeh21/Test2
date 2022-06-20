@@ -62,7 +62,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Gegevens</title>
 </head>
 <body>
-    <div class="card text-center">
+    <div class="card text-left">
         <div class="card-header">
             <div class="card-body">
                 <h2 class="text-muted">Tafel reserveren</h2>
@@ -89,6 +89,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
     </div>
-<a class="btn btn-danger" href="index.php">Terug naar Homepagina</a>
+<a class="btn btn-danger" href="index.php" style="margin-top:20px">Terug naar Homepagina</a>
 </body>
 </html>
