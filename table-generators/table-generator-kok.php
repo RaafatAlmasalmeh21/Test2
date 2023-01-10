@@ -47,15 +47,11 @@
                     <?php } ?>
 
                     <td>
-                        <a href="serveer-<?php echo $from1?>.php?ID=<?php echo $row['bestelling_id']; ?>
+                        <a href="serveer-bestelling-kok.php?ID=<?php echo $row['bestelling_id']; ?>
                         reserverings_id=<?php echo $row['reserverings_id']; ?>
                         " class="btn btn-primary" >Ready</a>
                     </td>
-                    <td>
-                        <a href="unserveer-<?php echo $from1?>.php?ID=<?php echo $row['bestelling_id']; ?>
-                        reserverings_id=<?php echo $row['reserverings_id']; ?>
-                        " class="btn btn-danger" >Not ready</a>
-                    </td>
+
                    
                     </tr>
             <?php }
